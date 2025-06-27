@@ -7,7 +7,7 @@ import xgboost as xgb
 from xgboost import XGBRegressor    
 
 
-from pred import *
+from Air_bnb.pred import *
 
 
 X_whole = pd.read_csv('Oakland_final.csv')
